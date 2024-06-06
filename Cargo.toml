@@ -1,6 +1,7 @@
 [workspace]
 members = ["backend", "desktop"]
 default-members = ["backend"]
+resolver = "2"
 
 [profile.release]
 strip = true
